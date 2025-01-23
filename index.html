@@ -13,7 +13,12 @@
         <div id="container">
             <p>
                 Hi, I'm Kilojoules.<br/>
-                The current year is: 2005.<br/>
+                The current year is: <b>
+                    <script>
+                        var cy = new Date().getFullYear();
+                        document.write(cy - 20)
+                    </script>
+                </b>.<br/>
                 You'll find me occasionally on <b>IRC</b>, <b>XMPP</b>, <b>Matrix</b> and unfortunately <b>Discord</b>.<br/>
                 I like linguistics, aviation, bowling, music <b class="accent">(!not web development!)</b><sub> somehow I own this domain</sub></p>
             </p>
