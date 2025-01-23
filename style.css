@@ -1,0 +1,28 @@
+body {
+    background-image: url("media/background.png");
+    background-repeat: repeat;
+    font-family: sans-serif;
+}
+
+#header {
+    padding: 20px;
+    max-width: 50%;
+    height: auto;
+}
+
+#container {
+    background-color: #C0C0C0;
+    margin: 1px;
+    padding: 25px;
+    float: center;
+    width: 800px;
+    border-width: 5px;
+    border-spacing: 1px;
+    border-style: double;
+    border-color: #dfdfdf;
+    border-collapse: separate;
+}
+
+b.accent {
+    color: #8C4830;
+}
